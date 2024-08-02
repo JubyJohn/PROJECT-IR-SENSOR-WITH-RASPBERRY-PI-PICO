@@ -3,7 +3,6 @@ from machine import Pin
 import time
 
 IR = Pin(17,  Pin.IN, Pin.PULL_UP)  # PULL_UP is used to set pin to HIGH, when it becomes 0 then only it works
-Led_G = Pin(25,Pin.OUT)
 
 while True:
     
@@ -11,7 +10,6 @@ while True:
         Led_G.value(0)
     else:
         Led_G.value(1)
-    
     time.sleep(0.1)  
    
 # NB: you can use the same program for vibration sensor and tilt sensor     
