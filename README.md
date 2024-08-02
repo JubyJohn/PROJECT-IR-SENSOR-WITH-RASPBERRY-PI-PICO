@@ -36,8 +36,8 @@ To activate IR Sensor module by interfacing with Raspberry Pi Pico using Micropy
 ## OUTPUT
 
 IR Sensing values prints on terminal :
-1 ----> Obstruct Detect
-2----> No obstruction Detect
+<br> 1 ----> Obstruct Detect
+<br> 2 ---> No obstruction Detect
 
  
 ## REFERENCE
